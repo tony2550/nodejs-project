@@ -6,6 +6,7 @@ const app = express();
 // wntjrwndj
 // dddfasf
 // 1
+// 2
 app.use(bodyParser.urlencoded({ extended: false }));
 
 app.use('/', (req, res, next) => {
